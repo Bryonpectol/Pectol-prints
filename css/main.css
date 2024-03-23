@@ -1,1 +1,153 @@
+/* Keyframes */
 
+@keyframes navlink {
+    0% {
+        background-color: black;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+        color: black;
+    }
+}
+
+
+
+/* Fonts */
+
+
+
+
+
+/* Desktop */
+
+@media only screen and (min-width: 601px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .desktopnav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: center;
+    }
+
+    .desktopnava {
+        text-decoration: none;
+        padding: 3vh;
+        color: white;
+    }
+
+    .desktopnava1 {
+        text-decoration: none;
+        padding: 3vh;
+        color: black;
+        background-color: white;
+    }
+
+    .desktopnava:hover {
+        animation: navlink 0.75s forwards;
+    }
+
+    .desktopnavli {
+        list-style-type: none;
+    }
+
+    .mobilenav {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+}
+
+
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .desktopnav {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .mobilenav {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .mainmobilediv {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    #mobilenavdiv {
+        background-color: black;
+        padding: 0vh 1vh 1vh 1vh;
+        margin-bottom: 1vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mobilenavdivhidden {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .mobilenavdiv {
+        visibility: visible;
+    }
+
+    .mobilenava {
+        color: white;
+        text-decoration: none;
+        padding: 2vh;
+        text-align: center;
+    }
+
+    .logotext {
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+    }
+
+    .mobilenavli {
+        list-style-type: none;
+    }
+
+    #iconimg {
+        width: 20px;
+        height: 20px;
+        padding: 2vh;
+    }
+
+    #ham {
+        border: none;
+        background: none;
+        display: flex;
+        justify-content: right;
+        text-align: right;
+    }
+    
+}
