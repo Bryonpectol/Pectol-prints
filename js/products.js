@@ -23,6 +23,8 @@ products.forEach(product => {
   mainDiv.className = "productdiv";
   Link.className = "productlink";
   Image.className = "productimage";
+  nameText.className = "productname";
+  priceText.className = "productname";
 
   nameText.textContent = "" + product.name;
   priceText.textContent = "Price: " + product.price;
