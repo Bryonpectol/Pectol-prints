@@ -12,9 +12,12 @@
       
         <header>
             <nav id="desktopnav" class="desktopnav">
-                <a class="desktopnava1" href="https://pectolprints.netlify.app/"><li class="desktopnavli">Home</li></a>
+                <h1 class="logotext">Pectol Prints</h1>
+                <div class="desktopnavdiv">
+                <a class="desktopnava" href="https://pectolprints.netlify.app/"><li class="desktopnavli">Home</li></a>
                 <a class="desktopnava" href="/html/products.html"><li class="desktopnavli">Products</li></a>
-                <a class="desktopnava" href="/html/support.html"><li class="desktopnavli">Support</li></a>
+                <a class="desktopnava1" href="/html/support.html"><li class="desktopnavli">Support</li></a>
+                </div>
             </nav>
 
             <nav id="mobilenav" class="mobilenav">
@@ -31,19 +34,20 @@
                 
         </header>
 
-        <main>
-            <form name="contact" method="POST" netlify>
-  <p>
-    <label>Your Name: <input type="text" name="name" reqiured /></label>
+        <main class="mainsupport">
+
+            <form class="contactform" name="contact" method="POST" netlify>
+  <p class="formp">
+    <label class="formlabel">Your Name: <input class="forminput" type="text" name="name" placeholder="Your name here" reqiured /></label>
   </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" required /></label>
+  <p class="formp">
+    <label class="formlabel">Your Email: <input class="forminput" type="email" name="email" placeholder="Your email here" required /></label>
   </p>
-  <p>
-    <label>Questions or Suggestions: <textarea name="message" required></textarea></label>
+  <p class="formp">
+    <label class="formlabel">Questions or Suggestions: <textarea class="forminput" name="message" placeholder="Your questions or suggestions here" required></textarea></label>
   </p>
-  <p>
-    <button type="submit">Send</button>
+  <p class="formp">
+    <button class="formbutton" type="submit">Send</button>
   </p>
             </form>
         </main>

@@ -12,9 +12,12 @@
       
         <header>
             <nav id="desktopnav" class="desktopnav">
-                <a class="desktopnava1" href="https://pectolprints.netlify.app/"><li class="desktopnavli">Home</li></a>
-                <a class="desktopnava" href="/html/products.html"><li class="desktopnavli">Products</li></a>
+                <h1 class="logotext">Pectol Prints</h1>
+                <div class="desktopnavdiv">
+                <a class="desktopnava" href="https://pectolprints.netlify.app/"><li class="desktopnavli">Home</li></a>
+                <a class="desktopnava1" href="/html/products.html"><li class="desktopnavli">Products</li></a>
                 <a class="desktopnava" href="/html/support.html"><li class="desktopnavli">Support</li></a>
+                </div>
             </nav>
 
             <nav id="mobilenav" class="mobilenav">
@@ -32,8 +35,53 @@
         </header>
 
         <main>
+
+            <br />
+            <div class="producth2div">
+            <h2 class="productsh2">Products</h2>
+
+            <form>
+                <label>Category:</label>
+                <select id="select">
+                    <option value="0">All</option>
+                    <option value="1">Music</option>
+                    <option value="2">Christmas</option>
+                    <option value="3">Thanksgiving</option>
+                    <option value="4">Halloween</option>
+                    <option value="5">Pickleball</option>
+                </select>
+            </form>
+
+            <button id="filterBtn" onclick="ffilter()">Search</button>
+            <!-- <button onclick="music()">Music</button>
+            <button onclick="christmas()">Christmas</button>
+            <button onclick="thanksgiving()">Thanksgiving</button>
+            <button onclick="halloween()">Halloween</button>
+            <button onclick="pickleball()">Pickleball</button> -->
+
+
+
+            </div>
+
             <div id="container">
-                
+                <!-- <div id="all">
+
+                </div>
+                <div id="music">
+                    
+                </div>
+                <div id="christmas">
+                    
+                </div>
+                <div id="thanksgiving">
+                    
+                </div>
+                <div id="halloween">
+                    
+                </div>
+                <div id="pickleball">
+                    
+                </div> -->
             </div>
         </main>
 
@@ -42,6 +90,6 @@
         </footer>
         
         <script src="/js/main.js"></script>
-        <script src="/js/products.js"></script>
+        <script type="module" src="/js/products.js"></script>
     </body>
 </html>
