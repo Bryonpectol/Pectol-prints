@@ -149,5 +149,24 @@
         justify-content: right;
         text-align: right;
     }
+
+    .productdiv {
+        border: 2px solid black;
+        border-radius: 25px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .productlink {
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        border-radius: 50px;
+    }
+
+    .productimage {
+        width: 100%;
+    }
     
 }
