@@ -20,7 +20,7 @@ function hamburger() {
 
     mobileNav.className = "mobilenavdiv";
     
-    homeLink.setAttribute("href", "");
+    homeLink.setAttribute("href", "https://pectolprints.netlify.app/");
     productLink.setAttribute("href", "/html/products.html");
     supportLink.setAttribute("href", "/html/support.html");
 
