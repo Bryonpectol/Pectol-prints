@@ -21,10 +21,13 @@ products.forEach(product => {
   let Image = document.createElement("img");
 
   mainDiv.className = "productdiv";
+  Link.className = "productlink";
+  Image.className = "productimage";
 
   nameText.textContent = "" + product.name;
   priceText.textContent = "Price: " + product.price;
   Link.setAttribute("href", product.link);
+  Link.setAttribute("target", "_blank");
   Link.textContent = "View Product";
   Image.setAttribute("src", product.image);
 
