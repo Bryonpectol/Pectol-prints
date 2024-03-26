@@ -410,7 +410,7 @@
         flex-direction: column;
         padding: 2vh;
         margin: 2vh;
-        width: 10vh;
+        width: 15vh;
     }
 
     .productlink {
@@ -443,8 +443,7 @@
         margin: 2vh;
         padding: 1vh;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
     }
     
