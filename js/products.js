@@ -134,7 +134,47 @@ let filterValue = document.getElementById("select");
 
   console.log("Text: " + text + " : Value: " + value);
 
+  let Container = document.getElementById("container");
 
+  products.forEach(product => {
+
+  let mainDiv = document.createElement("div");
+  let nameText = document.createElement("p");
+  let priceText = document.createElement("p");
+  let Link = document.createElement("a");
+  let Image = document.createElement("img");
+
+  mainDiv.className = "productdiv";
+  Link.className = "productlink";
+  Image.className = "productimage";
+  nameText.className = "productname";
+  priceText.className = "productname";
+
+  nameText.textContent = "" + product.name;
+  priceText.textContent = "Price: $" + product.price;
+  Link.setAttribute("href", product.link);
+  Link.setAttribute("target", "_blank");
+  Link.textContent = "View Product";
+  Image.setAttribute("src", product.image);
+
+  if(product.name != "" || product.link != "" || product.image != "") {
+    Container.appendChild(mainDiv);
+  }
+  
+  mainDiv.appendChild(nameText);
+  mainDiv.appendChild(Image);
+  mainDiv.appendChild(priceText);
+  mainDiv.appendChild(Link);
+  
+});
+
+
+
+
+
+
+
+      
   if(value == 0) {
   let Container = document.getElementById("container");
 
