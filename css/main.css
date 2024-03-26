@@ -453,5 +453,23 @@
         margin: 2vh;
         padding: 1vh;
     }
+
+    #select {
+        margin-left: 2vh;
+        margin-right: 2vh;
+        padding: 1vh;
+        border-radius: 25px;
+        border: none;
+    }
+
+    #filterBtn {
+        padding: 1vh 5vh 1vh 5vh;
+        background-color: black;
+        margin-bottom: 1vh;
+        color: white;
+        border: 1px solid black;
+        border-radius: 25px;
+        box-shadow: none;
+    }
     
 }
