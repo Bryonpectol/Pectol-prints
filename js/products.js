@@ -199,7 +199,7 @@ let filterValue = document.getElementById("select");
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -237,7 +237,7 @@ let filterValue = document.getElementById("select");
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -276,7 +276,7 @@ let filterValue = document.getElementById("select");
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -315,7 +315,7 @@ let filterValue = document.getElementById("select");
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -354,7 +354,7 @@ let filterValue = document.getElementById("select");
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -393,7 +393,7 @@ let filterValue = document.getElementById("select");
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -450,7 +450,7 @@ window.ffilter1 = function() {
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -488,7 +488,7 @@ window.ffilter1 = function() {
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -527,7 +527,7 @@ window.ffilter1 = function() {
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -566,7 +566,7 @@ window.ffilter1 = function() {
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -605,7 +605,7 @@ window.ffilter1 = function() {
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
@@ -644,7 +644,7 @@ window.ffilter1 = function() {
   let Link = document.createElement("a");
   let Image = document.createElement("img");
 
-  mainDiv.className = "productdiv";
+  mainDiv.className = "productdiv1";
   Link.className = "productlink";
   Image.className = "productimage";
   nameText.className = "productname";
