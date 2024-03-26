@@ -401,6 +401,18 @@
         margin: 2vh;
     }
 
+    .productdiv1 {
+        border: 2px solid black;
+        border-radius: 25px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2vh;
+        margin: 2vh;
+    }
+
     .productlink {
         text-decoration: none;
         color: white;
