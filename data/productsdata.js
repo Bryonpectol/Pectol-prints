@@ -90,11 +90,11 @@ export const products = [
     },
     {
       "id":"",
-      "name":"",
+      "name":"Pickleball Tee",
       "price":"19.98",
-      "link":"",
-      "image":"",
-      "category":"",
+      "link":"https://www.etsy.com/listing/1604834520/pickleball-tee",
+      "image":"https://i.etsystatic.com/47668579/r/il/26e26b/5538256622/il_794xN.5538256622_qbsm.jpg",
+      "category":"pickleball",
     },
     
   ];
