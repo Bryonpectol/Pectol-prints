@@ -165,8 +165,10 @@ let filterValue = document.getElementById("select");
   window.ffilter = function() {
 
   let searchDiv = document.getElementById("searchdiv");
+  let searchDiv2 = document.getElementById("searchdiv2");
 
       searchDiv.className = "searchdiv1";
+      searchDiv2.className = "searchdiv2";
 
   let filterBtn = document.getElementById("filterBtn");
 
@@ -428,7 +430,10 @@ let filterValue = document.getElementById("select");
 window.ffilter1 = function() {
 
   let searchDiv = document.getElementById("searchdiv");
+  let searchDiv2 = document.getElementById("searchdiv2");
+    
   searchDiv.className = "searchdiv1";
+  searchDiv2.className = "searchdiv2";
   
   Container.removeChild(mainDiv);
 
