@@ -110,7 +110,9 @@ import { products } from "/data/productsdata.js";
 
 
 
+let Amount = document.getElementById("amount");
 
+Amount.textContent = "Total Products: " + products.length;
 
 
 
