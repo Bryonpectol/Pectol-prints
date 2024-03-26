@@ -12,6 +12,18 @@
     }
 }
 
+@keyframes mobilenavthing {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
 @keyframes button {
 
     0% {
@@ -246,7 +258,7 @@
     }
 
     #mobilenavdiv {
-        background-color: #FDA19F;
+        background-color: #FF64C1;
         padding: 0vh 1vh 1vh 1vh;
         margin-bottom: 0vh;
         display: flex;
@@ -262,6 +274,7 @@
 
     .mobilenavdiv {
         visibility: visible;
+        animation: mobilenavthing 0.5s forwards;
     }
 
     main {
