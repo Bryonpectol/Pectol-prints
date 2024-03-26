@@ -286,6 +286,13 @@
         padding-top: 7vh;
     }
 
+    .first {
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 25px;
+        margin: 2vh;
+        padding: 1vh;
+    }
+
     .contactform {
         display: flex;
         flex-direction: column;
