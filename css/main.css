@@ -407,8 +407,7 @@
         background-color: white;
         display: flex;
         justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
         padding: 2vh;
         margin: 2vh;
     }
@@ -442,6 +441,10 @@
         border-radius: 25px;
         margin: 2vh;
         padding: 1vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
 }
