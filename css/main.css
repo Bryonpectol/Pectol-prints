@@ -237,6 +237,7 @@
         background-color: #FF64C1;
         display: flex;
         flex-direction: row-reverse;
+        position: fixed;
     }
 
     .mainmobilediv {
@@ -270,6 +271,14 @@
         flex-direction: column;
         margin-left: 1.5vh;
         margin-right: 1.5vh;
+        text-align: center;
+        background-color: #FDA19F;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         text-align: center;
         background-color: #FDA19F;
     }
