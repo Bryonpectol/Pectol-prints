@@ -454,6 +454,12 @@
         padding: 1vh;
     }
 
+    .catform {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     #select {
         margin-left: 2vh;
         margin-right: 2vh;
