@@ -122,7 +122,7 @@ let filterValue = document.getElementById("select");
 
   console.log("Text: " + text + " : Value: " + value);
 
-  
+  let Container = document.getElementById("container");
   products.forEach(product => {
 
   let mainDiv = document.createElement("div");
@@ -174,7 +174,7 @@ let filterValue = document.getElementById("select");
 
   console.log("Text: " + text + " : Value: " + value);
 
-  let Container = document.getElementById("container");
+  
 
 
 
