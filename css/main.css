@@ -306,6 +306,14 @@
         border-radius: 25px;
     }
 
+    .forminputtext {
+        margin-left: 2vh;
+        margin-right: 2vh;
+        padding: 1vh;
+        border-radius: 25px;
+        height: 20vh;
+    }
+
     .formbutton {
         padding: 1vh 5vh 1vh 5vh;
         background-color: black;
