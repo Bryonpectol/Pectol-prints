@@ -339,10 +339,7 @@
 
     .logotext {
         color: white;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-self: center;
+        float: left;
     }
 
     .mobilenavli {
@@ -358,9 +355,7 @@
     #ham {
         border: none;
         background: none;
-        display: flex;
-        justify-content: right;
-        text-align: right;
+        float: right;
     }
 
     .productdiv {
