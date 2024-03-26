@@ -235,13 +235,13 @@
     .mobilenav {
         width: 100%;
         background-color: #FF64C1;
-        display: flex;
-        flex-direction: row-reverse;
+        display: inline-block;
         position: fixed;
     }
 
     .mainmobilediv {
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         width: 100%;
     }
 
