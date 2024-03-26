@@ -290,6 +290,7 @@
         text-align: center;
         display: flex;
         justify-content: center;
+        margin-bottom: 3px;
         /* margin-right: 1vh; */
     }
 
