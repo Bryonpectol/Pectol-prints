@@ -363,9 +363,9 @@
     .logotext {
         float: left;
         width: 40px;
-        padding-top: 2vh;
+        padding-top: 1.5vh;
         padding-left: 2vh;
-        border-radius: 30px;
+        border-radius: 20px;
     }
 
     .mobilenavli {
