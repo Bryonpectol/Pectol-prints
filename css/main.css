@@ -417,5 +417,20 @@
     .productimage {
         width: 100%;
     }
+
+    .searchdiv {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .searchdiv1 {
+        visibility: visible;
+        width: 100%;
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 25px;
+        margin: 2vh;
+        padding: 1vh;
+    }
     
 }
