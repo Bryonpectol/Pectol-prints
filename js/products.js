@@ -122,20 +122,7 @@ let filterValue = document.getElementById("select");
 
   console.log("Text: " + text + " : Value: " + value);
 
-  window.ffilter = function() {
-
-  let filterBtn = document.getElementById("filterBtn");
-
-  filterBtn.setAttribute("onclick", "ffilter1");
-
-  let filterValue = document.getElementById("select");
-  let value = filterValue.value;
-  let text = filterValue.options[filterValue.selectedIndex].text;
-
-  console.log("Text: " + text + " : Value: " + value);
-
-  let Container = document.getElementById("container");
-
+  
   products.forEach(product => {
 
   let mainDiv = document.createElement("div");
@@ -167,6 +154,28 @@ let filterValue = document.getElementById("select");
   mainDiv.appendChild(Link);
   
 });
+
+
+
+
+
+
+
+
+  window.ffilter = function() {
+
+  let filterBtn = document.getElementById("filterBtn");
+
+  filterBtn.setAttribute("onclick", "ffilter1");
+
+  let filterValue = document.getElementById("select");
+  let value = filterValue.value;
+  let text = filterValue.options[filterValue.selectedIndex].text;
+
+  console.log("Text: " + text + " : Value: " + value);
+
+  let Container = document.getElementById("container");
+
 
 
 
