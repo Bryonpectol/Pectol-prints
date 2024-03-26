@@ -361,11 +361,11 @@
     }
 
     .logotext {
-        color: white;
         float: left;
-        vertical-align: middle;
+        width: 60px;
         padding-top: 2vh;
         padding-left: 2vh;
+        border-radius: 50px;
     }
 
     .mobilenavli {
