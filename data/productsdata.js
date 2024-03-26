@@ -50,11 +50,11 @@ export const products = [
     },
     {
       "id":"",
-      "name":"",
+      "name":"Hot cocoa vibes NuBlend® Crewneck Sweatshirt",
       "price":"24.98",
       "link":"https://www.etsy.com/listing/1618267812/hot-cocoa-vibes-nublend-crewneck",
       "image":"https://i.etsystatic.com/47668579/r/il/2d6483/5586126402/il_640xN.5586126402_49p4.jpg",
-      "category":"",
+      "category":"christmas",
     },
     {
       "id":"",
