@@ -164,6 +164,10 @@ let filterValue = document.getElementById("select");
 
   window.ffilter = function() {
 
+  let searchDiv = document.getElementById("searchdiv");
+
+      searchDiv.className = "searchdiv1";
+
   let filterBtn = document.getElementById("filterBtn");
 
   filterBtn.setAttribute("onclick", "ffilter1");
@@ -209,7 +213,7 @@ let filterValue = document.getElementById("select");
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -247,7 +251,7 @@ let filterValue = document.getElementById("select");
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -286,7 +290,7 @@ let filterValue = document.getElementById("select");
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -325,7 +329,7 @@ let filterValue = document.getElementById("select");
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -364,7 +368,7 @@ let filterValue = document.getElementById("select");
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -403,7 +407,7 @@ let filterValue = document.getElementById("select");
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -423,6 +427,8 @@ let filterValue = document.getElementById("select");
 
 window.ffilter1 = function() {
 
+  let searchDiv = document.getElementById("searchdiv");
+  searchDiv.className = "searchdiv1";
   
   Container.removeChild(mainDiv);
 
@@ -458,7 +464,7 @@ window.ffilter1 = function() {
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -496,7 +502,7 @@ window.ffilter1 = function() {
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -535,7 +541,7 @@ window.ffilter1 = function() {
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -574,7 +580,7 @@ window.ffilter1 = function() {
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -613,7 +619,7 @@ window.ffilter1 = function() {
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
@@ -652,7 +658,7 @@ window.ffilter1 = function() {
   Image.setAttribute("src", product.image);
 
   if(product.name != "" || product.link != "" || product.image != "") {
-    Container.appendChild(mainDiv);
+    searchDiv.appendChild(mainDiv);
   }
   
   mainDiv.appendChild(nameText);
