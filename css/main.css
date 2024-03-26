@@ -362,10 +362,10 @@
 
     .logotext {
         float: left;
-        width: 60px;
+        width: 40px;
         padding-top: 2vh;
         padding-left: 2vh;
-        border-radius: 50px;
+        border-radius: 30px;
     }
 
     .mobilenavli {
