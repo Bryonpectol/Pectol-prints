@@ -278,7 +278,7 @@
         flex-direction: column;
         justify-content: center;
         border: 2px solid black;
-        margin-top: 10vh;
+        margin-top: 5vh;
         width: 45vh;
         padding: 1vh 0vh 1vh 0vh;
         border-radius: 25px;
@@ -304,6 +304,7 @@
         margin-right: 2vh;
         padding: 1vh;
         border-radius: 25px;
+        border: none;
     }
 
     .forminputtext {
@@ -312,6 +313,7 @@
         padding: 1vh;
         border-radius: 25px;
         height: 20vh;
+        border: none;
     }
 
     .formbutton {
