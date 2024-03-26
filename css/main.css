@@ -409,8 +409,8 @@
         justify-content: center;
         flex-direction: column;
         padding: 2vh;
-        margin: 2vh;
-        width: 10vh;
+        margin: 1vh 2vh 1vh 2vh;
+        width: 12vh;
     }
 
     .productlink {
