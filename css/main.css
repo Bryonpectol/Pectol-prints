@@ -484,6 +484,8 @@
         color: white;
         border-radius: 25px;
         text-decoration: none;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
     }
     
 }
