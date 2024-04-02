@@ -44,6 +44,16 @@
 
 /* Fonts */
 
+/* Fonts */
+@font-face {
+    font-family: "happy-monkey";
+    src: url("/media/fonts/happy-monkey.ttf");
+}
+
+@font-face {
+    font-family: "grisly-beast";
+    src: url("/media/fonts/grisly-beast.ttf");
+}
 
 
 
