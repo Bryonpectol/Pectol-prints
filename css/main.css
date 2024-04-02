@@ -477,5 +477,12 @@
         border-radius: 25px;
         box-shadow: none;
     }
+
+    .abtn {
+        padding: 1vh 4vh 1vh 4vh;
+        background-color: black;
+        color: white;
+        border-radius: 25px;
+    }
     
 }
