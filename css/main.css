@@ -301,6 +301,7 @@
         border-radius: 25px;
         margin: 2vh;
         padding: 1vh;
+        font-family: grisly-beast;
     }
 
     .contactform {
@@ -322,6 +323,7 @@
         justify-content: center;
         margin-bottom: 3px;
         /* margin-right: 1vh; */
+        font-family: happy-monkey;
     }
 
     .formp {
@@ -329,6 +331,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        font-family: happy-monkey;
     }
 
     .forminput {
@@ -337,6 +340,7 @@
         padding: 1vh;
         border-radius: 25px;
         border: none;
+        font-family: happy-monkey;
     }
 
     .forminputtext {
@@ -344,6 +348,7 @@
         border-radius: 25px;
         height: 20vh;
         border: none;
+        font-family: happy-monkey;
     }
 
     .formbutton {
@@ -354,6 +359,7 @@
         border: 1px solid black;
         border-radius: 25px;
         box-shadow: none;
+        font-family: happy-monkey;
     }
 
     .formbutton:hover {
@@ -375,6 +381,7 @@
         text-decoration: none;
         padding: 2vh;
         text-align: center;
+        font-family: grisly-beast;
     }
 
     .logotext {
@@ -434,6 +441,7 @@
 
     .productname {
         text-align: center;
+        font-family: happy-monkey;
     }
 
     .productimage {
@@ -476,6 +484,7 @@
         padding: 1vh;
         border-radius: 25px;
         border: none;
+        font-family: happy-monkey;
     }
 
     #filterBtn {
@@ -486,6 +495,7 @@
         border: 1px solid black;
         border-radius: 25px;
         box-shadow: none;
+        font-family: happy-monkey;
     }
 
     .abtn {
@@ -495,6 +505,11 @@
         border-radius: 25px;
         text-decoration: none;
         margin: 1vh 4vh 1vh 4vh;
+        font-family: happy-monkey;
+    }
+
+    .mainp {
+        font-family: happy-monkey;
     }
     
 }
